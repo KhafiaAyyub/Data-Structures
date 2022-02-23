@@ -7,19 +7,6 @@ public class maxInGT  {
     ArrayList<Node> children = new ArrayList<>();
   }
 
-  public static void display(Node node) {
-    String str = node.data + " -> ";
-    for (Node child : node.children) {
-      str += child.data + ", ";
-    }
-    str += ".";
-    System.out.println(str);
-
-    for (Node child : node.children) {
-      display(child);
-    }
-  }
-
   public static Node construct(int[] arr) {
     Node root = null;
 
@@ -42,17 +29,6 @@ public class maxInGT  {
     }
 
     return root;
-  }
-
-  public static int size(Node node) {
-    int s = 0;
-
-    for (Node child : node.children) {
-      s += size(child);
-    }
-    s += 1;
-
-    return s;
   }
 
   public static int max(Node node) {
