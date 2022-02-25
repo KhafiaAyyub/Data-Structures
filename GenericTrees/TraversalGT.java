@@ -31,6 +31,7 @@ public class Traversal {
     return root;
   }
 
+  
   public static void traversals(Node node){
     //area1->pre-order/on the way deep in recursion
     //euler left/pre area
