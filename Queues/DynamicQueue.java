@@ -13,26 +13,7 @@ public class MinStack {
     }
 
 
-    int size() {
-      // write your code here  
-    }
-
-    void push(int val) {
-      // write your code here
-    }
-
-    int pop() {
-      // write your code here
-    }
-
-    int top() {
-      // write your code here
-    }
-
-    int min(){
-  	  // write your code here
-    }
-  }
+ 
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
